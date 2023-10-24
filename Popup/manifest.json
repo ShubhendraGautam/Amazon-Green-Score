@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Eco-Awareness Extension",
+    "version": "1.0",
+    "description": "An extension to check product eco-metrics.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "index.html"
+     
+    }
+  }
+  

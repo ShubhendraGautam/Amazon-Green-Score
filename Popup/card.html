@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            width: 500px;
+            height: 240px;
+            background: #fff;
+            border: 2px solid black;
+            border-radius: 10px;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .left {
+            width: 35%; 
+            height: 100%;
+            border-right: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle {
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            border: 7px solid #4ed652;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle-text {
+            color: #1cd522;
+            font-weight: bold;
+            text-align: center; /* Center the text in the circle */
+        }
+
+        .left-text {
+            color: #1cd522;
+            text-align: center;
+            
+        }
+
+        .right {
+            width: 70%; /* Adjusted width to center the text in the right part */
+            padding: 10px;
+            text-align: center; /* Center the text in the right part */
+        }
+
+        .heading {
+            color: #4ed652;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .info {
+            color: #1cd522;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="circle">
+                <div class="circle-text">70% Green</div>
+            </div>
+            <div class="left-text">
+                Product complies some of<br>
+                the environment safety<br>
+                standards
+            </div>
+        </div>
+        <div class="right">
+            <div class="heading">Samsung M34 5G</div>
+            <div class="info">Carbon Emission ....................................10%</div>
+            <div class="info">Energy Efficiency...................................20%</div>
+            <div class="info">Harmful Toxins Used............................35mg</div>
+            <div class="info">Water Pollution.....................................25mg</div>
+        </div>
+    </div>
+</body>
+</html>
